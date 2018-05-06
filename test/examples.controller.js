@@ -4,8 +4,6 @@ import Server from '../server';
 
 const expect = chai.expect;
 
-import Demo from './demo.controllers';
-
 describe('Examples', () => {
   it('should get all examples', () =>
     request(Server)
